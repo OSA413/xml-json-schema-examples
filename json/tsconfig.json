@@ -1,0 +1,4 @@
+{
+    "$schema": "https://www.schemastore.org/tsconfig",
+    "_comment": "Начните писать двойную кавычку внутри объекта и IDE подскажет вам поля из схемы"
+}

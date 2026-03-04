@@ -16,22 +16,30 @@
         "addresses": {
             "type": "array",
             "items": {
-            "type": "object",
-            "properties": {
-                "street": {
-                "type": "string"
+                "type": "object",
+                "properties": {
+                    "street": {
+                        "type": "string"
+                    },
+                    "city": {
+                        "type": "string"
+                    },
+                    "postalCode": {
+                        "type": "string",
+                        "pattern": "^[0-9]{5}$"
+                    }
                 },
-                "city": {
-                "type": "string"
-                },
-                "postalCode": {
-                "type": "string",
-                "pattern": "^[0-9]{5}$"
-                }
-            },
-            "required": ["street", "city", "postalCode"]
+                "required": [
+                    "street",
+                    "city",
+                    "postalCode"
+                ]
             }
         }
     },
-    "required": ["id", "name", "age"]
+    "required": [
+        "id",
+        "name",
+        "age"
+    ]
 }

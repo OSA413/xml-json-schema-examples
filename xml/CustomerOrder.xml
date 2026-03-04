@@ -1,2 +1,22 @@
-<?xml-model href="./CustomerOrder.xsd" ?>
+<?xml-model href="./CustomerOrder.xsd"?>
 <!-- Начните писать <Root> ниже -->
+<Root>
+    <Customers>
+        <Customer CustomerID="123-654-789">
+            <CompanyName>Тест Стаб Инкорпорейтед</CompanyName>
+            <ContactName>123</ContactName>
+            <ContactTitle>123</ContactTitle>
+            <Phone>654</Phone>
+            <Fax>123</Fax>
+            <FullAddress CustomerID="123-654-789">
+                <Address></Address>
+                <City></City>
+                <Region></Region>
+                <PostalCode></PostalCode>
+                <Country></Country>
+            </FullAddress>
+        </Customer>
+    </Customers>
+    <Orders>
+    </Orders>
+</Root>

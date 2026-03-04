@@ -18,5 +18,21 @@
         </Customer>
     </Customers>
     <Orders>
+        <Order>
+            <CustomerID>123-654-789</CustomerID>
+            <EmployeeID>123-321-789</EmployeeID>
+            <OrderDate>2020-10-24T14:10:10</OrderDate>
+            <RequiredDate>2020-10-24T14:10:10</RequiredDate>
+            <ShipInfo>
+                <ShipVia>123456</ShipVia>
+                <Freight>0.5</Freight>
+                <ShipName></ShipName>
+                <ShipAddress></ShipAddress>
+                <ShipCity></ShipCity>
+                <ShipRegion></ShipRegion>
+                <ShipPostalCode></ShipPostalCode>
+                <ShipCountry></ShipCountry>
+            </ShipInfo>
+        </Order>
     </Orders>
 </Root>
